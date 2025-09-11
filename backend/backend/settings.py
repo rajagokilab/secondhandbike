@@ -77,8 +77,9 @@ CORS_ALLOWED_ORIGINS = [
 AUTH_USER_MODEL = 'users.CustomUser'
 
 # URLs
-ROOT_URLCONF = 'backend.urls'
-WSGI_APPLICATION = 'backend.wsgi.application'
+ROOT_URLCONF = 'core.urls'
+WSGI_APPLICATION = 'core.wsgi.application'
+
 
 
 TEMPLATES = [
