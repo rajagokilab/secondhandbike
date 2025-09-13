@@ -32,7 +32,7 @@ DEBUG = False
 ALLOWED_HOSTS = ['*']  # For testing, later use your render URL
 STATIC_ROOT = BASE_DIR / 'staticfiles'
 STATICFILES_DIRS = [
-    BASE_DIR / "frontend" / "dist",
+    BASE_DIR.parent / "frontend" / "dist"
 ]
 
 
