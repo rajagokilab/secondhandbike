@@ -27,7 +27,7 @@ const BuyDetails = () => {
     return <p className="p-6 text-gray-500">Loading bike details...</p>;
 
   return (
-    <main className="flex flex-col items-center p-4">
+    <main className="flex flex-col items-center p-4 mt-28">
       {/* Product Image and Details Container */}
       <div className="w-full max-w-7xl bg-white rounded-2xl shadow-lg overflow-hidden flex flex-col md:flex-row mb-8">
         {/* Left Side: Main Image and Thumbnails */}
